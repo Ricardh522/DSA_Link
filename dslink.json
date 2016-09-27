@@ -1,0 +1,34 @@
+{
+  "name": "python_test_link",
+  "version": "1.0.0",
+  "description": "test dev",
+  "license": "none",
+  "author": {
+    "name": "Richard Hughes",
+    "email": "richardh522@gmail.com"
+  },
+  "main": {
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "bugs": {
+      "url": ""
+    },
+    "configs": {
+      "broker": {
+        "type": "url"
+      },
+      "nodes": {
+        "type": "path",
+        "value": "nodes.json",
+        "required": true
+      },
+      "key": {
+        "type": "path",
+        "value": ".keys",
+        "required": true
+      }
+    }
+  }
+}
